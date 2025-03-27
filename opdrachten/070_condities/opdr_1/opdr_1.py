@@ -1,12 +1,13 @@
 # Opdracht 1 condities
-# Naam student:
+# Naam student: Thijs Post
 # Groep:
 
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
+# Vraag de gebruiker om de lengte van de rechthoekzijden van de driehoek
+zijde1 = float(input("Geef de lengte van de eerste rechthoekzijde: "))
+zijde2 = float(input("Geef de lengte van de tweede rechthoekzijde: "))
 
-# Hier start de for-loop....
+# Bereken de lengte van de schuine zijde (Pythagoras)
+schuine_zijde = (zijde1**2 + zijde2**2) ** 0.5
 
-my_list = []
-
-#for loop
-#if statement
+# Print het resultaat
+print(f"De schuine zijde van de driehoek is: {schuine_zijde:.2f}")
